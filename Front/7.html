@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>7 - JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .tabcontent
+            {
+                display: none;
+            }
+            .tabcontet .ativa
+            {
+                display: block; display: show;
+            }
+            .imagem
+            {
+                padding-left: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tabcontent ativa " id="galeria1" style="display: block" >
+
+            <img class="imagem" src="imagem/acesa.jpg" >
+            <img class="imagem" src="imagem/apagada.jpg" >
+            <img class="imagem" src="imagem/acesa.jpg" >
+            
+        </div>
+        <div class="tabcontent" id="galeria2"  >
+
+            <img class="imagem" src="imagem/apagada.jpg" >
+             <img class="imagem" src="imagem/acesa.jpg" >
+            <img class="imagem" src="imagem/acesa.jpg" >
+           
+        </div>
+        <div class="tabcontent " id="galeria3"   >
+
+            <img class="imagem" src="imagem/acesa.jpg" >
+             <img class="imagem" src="imagem/acesa.jpg" >
+            <img class="imagem" src="imagem/apagada.jpg" >
+           
+        </div>
+        <button  onclick="prev();"> < </button>
+        <button  onclick="next();"> > </button>
+
+
+
+        <script>
+            var a = 1;
+            $("#galeria1").show();
+
+            function next() {
+                if (a < 3) {
+                    $(".tabcontent").hide();
+                    a++;
+                    $("#galeria" + (a)).show();
+                }
+            }
+
+            function prev() {
+                if (a > 1) {
+                    $(".tabcontent").hide();
+                    a--;
+                    $("#galeria" + (a)).show();
+                }
+            }
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    </body>
+</html>

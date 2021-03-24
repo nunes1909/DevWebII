@@ -1,0 +1,66 @@
+* body{
+    margin: 0;
+    padding: 0;
+}
+
+#topo{
+    width: 980px;
+    height: 150px;
+    background-color: #fff500;
+    margin: auto;
+}
+
+#row{
+    width: 980px;
+    height: 180px;
+    margin: auto;
+}
+
+#logo{
+    width: 180px;
+    height: 180px;
+    background-color: #69d6ff;
+    float: left;
+}
+
+#menu{
+    width: 800px;
+    height: 180px;
+    background-color: #27ffdc;
+    float: right;
+}
+
+#baner{
+    width: 800px;
+    height: 400px;
+    background-color: #baa8ff;
+    margin: auto;
+}
+
+#container{
+    width: 980px;
+    height: 500px;
+    background-color: brown;
+    margin: auto;
+}
+
+#esquerda{
+    width: 450px;
+    height: 500px;
+    float: left;
+    background-color: #fff500;
+}
+
+#direita{
+    width: 450px;
+    height: 500px;
+    float: right;
+    background-color: darkolivegreen;
+}
+
+#rodape{
+    width: 980px;
+    height: 80px;
+    margin: auto;
+    background-color: darkgreen;
+}

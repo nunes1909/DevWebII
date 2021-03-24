@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 8 JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <form>
+            Nome: <input type="text" id="nome" >
+            Email: <input type="text" id="email" >
+            <input type="submit" value="Enviar Dados" onclick="imprimirVariaveis();" >
+        </form>
+        
+        
+        <script>
+            
+           //Nome da Função 
+           function imprimirVariaveis()
+           {
+               //Declarações de Variáveis 
+                var nome = document.getElementById('nome').value;
+                var email = document.getElementById('email').value;
+                
+                //Comando de saída
+                alert(nome + " " + email);
+           }
+            
+            
+        </script>
+    </body>
+</html>

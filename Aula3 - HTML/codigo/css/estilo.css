@@ -1,0 +1,52 @@
+* body
+{
+    margin: 0px;
+    padding: 0px;
+}
+#topo
+{
+    width: 980px; /* largura  */
+    height: 200px; /* Altura  */
+    background-color: #ff0017; /* Cor de Fundo  */
+    margin:auto; /* Centraliza  */
+    text-align: center;
+}
+#topo a
+{
+    color: #fffafe;
+    text-decoration: none;
+}
+.espaco
+{
+    padding-top: 50px;
+}
+
+#container
+{
+    width: 980px;
+    height: 600px;
+    background-color: #1609ff;
+    margin: auto;
+}
+#esquerda
+{
+    width:450px;
+    height: 600px;
+    background-color: #12ff0b;
+    float: left;
+}
+#direita
+{
+    width: 450px;
+    height: 600px;
+    background-color: #ff5e06;
+    float: right;
+}
+#rodape
+{
+    width: 980px;
+    height: 100px;
+    background-color: #000000;
+    margin: auto;
+}
+

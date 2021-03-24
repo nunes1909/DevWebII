@@ -1,0 +1,32 @@
+* body
+{
+    margin: 0px;
+    padding: 0px;
+}
+#topo
+{
+    width: 980px;
+    height: 150px;
+    background-color: #5200ff;
+    margin: auto;
+}
+#row
+{
+    width: 980px;
+    height: 180px;
+    margin: auto;
+}
+#logo
+{
+    width: 180px;
+    height: 180px;
+    background-color: #00ff30;
+    float: left;
+}
+#menu
+{
+    width: 800px;
+    height: 180px;
+    background-color: #fbff0c;
+    float: right;
+}

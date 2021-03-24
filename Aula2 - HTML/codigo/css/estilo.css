@@ -1,0 +1,42 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+}
+#topo{
+    width: 980px;
+    height: 200px;
+    background-color: #ff2a27;
+    margin: auto;
+    text-align: center;
+}
+#topo a{
+    color: #fffafe;
+    text-decoration: none;
+}
+.espaco{
+    padding-top: 50px;
+}
+#container{
+    width: 980px;
+    height: 600px;
+    background-color: #55ff57;
+    margin: auto;
+}
+#esquerda{
+    width: 450px;
+    height: 600px;
+    background-color: #baa8ff;
+    float: left;
+}
+#direita{
+    width: 450px;
+    height: 600px;
+    background-color: #69d6ff;
+    float: right;
+}
+#rodape{
+    width: 980px;
+    height: 100px;
+    background-color: #000;
+    margin: auto;
+}
